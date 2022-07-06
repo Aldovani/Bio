@@ -1,0 +1,12 @@
+:root{
+  --primary:#7F5AF0 ;
+  --secondary:#242629;
+  --tertiary:#16161a ;
+  --white:#FFFFFE;
+  --gray:#94A1B2;
+}
+
+body{
+  background: var(--tertiary);
+  font-family: 'Poppins', sans-serif;
+}
