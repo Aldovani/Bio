@@ -1,12 +1,11 @@
-:root{
-  --primary:#7F5AF0 ;
-  --secondary:#242629;
-  --tertiary:#16161a ;
-  --white:#FFFFFE;
-  --gray:#94A1B2;
+:root {
+  --primary: #7f5af0;
+  --secondary: #242629;
+  --tertiary: #16161a;
+  --white: #fffffe;
+  --gray: #94a1b2;
 }
-
-body{
+body {
   background: var(--tertiary);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }

@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.form label span {
+  color: var(--white);
+  color: #fa5252;
+}
+
+.field {
+  border: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #242629;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 16px 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+
+  color: #fffffe;
+  resize: vertical;
+}
+.field::placeholder,
+.field::placeholder {
+  color: var(--gray);
+}
+
+.form button {
+  background-color: var(--primary);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 12px 0;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.form button:hover {
+  opacity: 0.7;
+}
+.form button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.invalid {
+  border: 2px solid #fa5252;
+}
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  border-top: 2px solid var(--gray);
+  width: 1rem;
+  height: 1rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,39 +1,33 @@
 export const Links = [
   {
     icon: "instagram",
-    name: "Instagram",
     href: "https://instagram.com/aldovanih",
-    text: "Siga me no",
+    text: "Siga-me no <span>Instagram</span>",
   },
 
   {
     icon: "twitter",
-    name: "Twitter",
     href: "https://twitter.com/aldovanih",
-    text: "Siga me no",
+    text: "Siga-me no <span>Twitter</span>",
   },
   {
     icon: "linkdin",
-    name: "Linkdin",
     href: "https://www.linkedin.com/in/aldovani-henrique-da-costa-2a460b21a/",
-    text: "Siga me no",
+    text: "Conecte-se comigo no <span>Linkdin</span>",
   },
   {
     icon: "github",
-    name: "Github",
     href: "https://github.com/aldovani",
-    text: "Siga me no",
+    text: "Siga me no <span>Github</span>",
   },
   {
     icon: "portfolio",
-    name: "Portfolio",
     href: "https://aldovani.github.io/desafio-portfolio/",
-    text: "Visite meu",
+    text: "Visite meu <span>Portfolio</span>",
   },
   {
     icon: "email",
-    name: "Email",
-    text: "Entre em contato por",
+    text: "Entre em contato por <span>Email</span>",
     isButton: true,
   },
 ];

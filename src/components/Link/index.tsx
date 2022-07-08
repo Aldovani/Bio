@@ -1,32 +1,21 @@
 import styles from "./styles.module.css";
 import NextLink, { LinkProps } from "next/link";
+import { useModal } from "../../hooks/useModal";
 
 interface ILinksProps extends LinkProps {
   icon: string;
-  name: string;
   text: string;
   isButton?: boolean;
 }
 
-export function Link({
-  icon,
-  href="",
-  name,
-  isButton = false,
-  text,
-}: ILinksProps) {
+export function Link({ icon, href = "", isButton = false, text }: ILinksProps) {
+  const { open } = useModal();
+
   if (isButton) {
     return (
-      <button
-        className={styles.link}
-        onClick={() => {
-          alert("apertou");
-        }}
-      >
+      <button className={styles.link} onClick={open}>
         <img src={`./${icon}.svg`} alt="" />
-        <p>
-          {text} <span>{name}</span>
-        </p>
+        <p dangerouslySetInnerHTML={{ __html: text }} />
       </button>
     );
   }
@@ -34,9 +23,7 @@ export function Link({
     <NextLink href={href} target="_blank" passHref>
       <a target="_blank" className={styles.link}>
         <img src={`./${icon}.svg`} alt="" />
-        <p>
-          {text} <span>{name}</span>
-        </p>
+        <p dangerouslySetInnerHTML={{ __html: text }} />
       </a>
     </NextLink>
   );
