@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ToastContextProvider>
       <ModalContextProvider>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </ModalContextProvider>
     </ToastContextProvider>
   );

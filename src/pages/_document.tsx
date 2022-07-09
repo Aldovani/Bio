@@ -11,7 +11,7 @@ export default function Document() {
         <meta property="og:url" content="https://aldovani-bio.vercel.app/" />
         <meta property="og:title" content="Aldovani Henrique da costa" />
         <meta property="og:description" content="Frontend Developer" />
-        <meta property="og:image" content="./capa.svg" />
+        <meta property="og:image" content="./Capa.svg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -20,7 +20,7 @@ export default function Document() {
         />
         <meta property="twitter:title" content="Aldovani Henrique da costa" />
         <meta property="twitter:description" content="Frontend Developer" />
-        <meta property="twitter:image" content="./capa.svg" />
+        <meta property="twitter:image" content="./Capa.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
