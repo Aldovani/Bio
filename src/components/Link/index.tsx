@@ -2,7 +2,6 @@
 import styles from "./styles.module.css";
 import NextLink, { LinkProps } from "next/link";
 import { useModal } from "../../hooks/useModal";
-import Image from "next/image";
 
 interface ILinksProps extends LinkProps {
   icon: string;
