@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import { useToast } from "../../hooks/useToast";
 import emailError from "../../assets/img/email-error.svg";
 import emailSuccess from "../../assets/img/email-success.svg";
+import Image from "next/image";
 
 export function Toast() {
   const { toast, isVisible } = useToast();

@@ -3,10 +3,8 @@
   border-radius: 8px;
   height: 80px;
   padding: 16px;
-  box-sizing: border-box;
   display: flex;
   align-items: center;
-
   text-decoration: none;
   gap: 1rem;
   cursor: pointer;
@@ -26,7 +24,7 @@
   height: auto;
 }
 
-.link p {
+.link span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -35,6 +33,6 @@
 
   color: var(--gray);
 }
-.link span {
+.link span > span {
   color: var(--primary);
 }

@@ -26,7 +26,12 @@
 
   color: #fffffe;
   resize: vertical;
+ 
 }
+textarea.field{
+  min-height: 100px;
+  max-height: 150px;
+} 
 .field::placeholder,
 .field::placeholder {
   color: var(--gray);

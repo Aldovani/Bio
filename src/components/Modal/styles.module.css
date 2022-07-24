@@ -8,11 +8,9 @@
 
 .modal-content {
   padding: 1rem 4rem;
-  width: 300px;
+  width: 500px;
   background: #16161a;
   height: 100%;
-  position: relative;
-  z-index: 50;
   margin-left: auto;
 }
 
@@ -34,4 +32,11 @@
 
 .buttonClose:hover {
   background: rgba(127, 90, 240, 0.3);
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
 }

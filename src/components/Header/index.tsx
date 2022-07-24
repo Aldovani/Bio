@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.css";
 
 export function Header() {
@@ -8,12 +9,15 @@ export function Header() {
         alt="Aldovani Henrique da costa"
       />
       <div>
-        <h1>Aldovani Henrique da costa</h1>
+        <span>Olá, eu sou</span>
+        <h1> Aldovani Henrique da costa</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio metus
-          convallis eu tempus amet cras. Ultricies sed feugiat vitae viverra
-          diam egestas ut amet sit. Odio rhoncus vestibulum tortor urna nec eu
-          ullamcorper vestibulum.
+          e sou um desenvolvedor web de 18 anos. Meus interesses incluem anime,
+          jogos, mangá, e uma variedade de outras coisas relacionadas à
+          tecnologia. Eu realmente gosto de aprender coisas novas -
+          especialmente quando elas são tão divertidas quanto codificar!e tenho
+          estudado análise e desenvolvimento de sistemas na FATEC em
+          Taquaritinga.
         </p>
       </div>
     </header>

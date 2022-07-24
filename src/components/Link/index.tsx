@@ -20,7 +20,7 @@ export function Link({ icon, href = "", isButton = false, text }: ILinksProps) {
           src={`./${icon}.svg`}
           alt={`Logo ${icon}`}
         />
-        <p dangerouslySetInnerHTML={{ __html: text }} />
+        <span dangerouslySetInnerHTML={{ __html: text }} />
       </button>
     );
   }
@@ -32,7 +32,7 @@ export function Link({ icon, href = "", isButton = false, text }: ILinksProps) {
           src={`./${icon}.svg`}
           alt={`Logo ${icon}`}
         />
-        <p dangerouslySetInnerHTML={{ __html: text }} />
+        <span dangerouslySetInnerHTML={{ __html: text }} />
       </a>
     </NextLink>
   );

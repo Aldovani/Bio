@@ -11,9 +11,9 @@ export const Links = [
     text: "Siga-me no <span>Twitter</span>",
   },
   {
-    icon: "linkdin",
-    href: "https://www.linkedin.com/in/aldovani-henrique-da-costa-2a460b21a/",
-    text: "Conecte-se comigo no <span>Linkdin</span>",
+    icon: "linkedin",
+    href: "https://www.linkedin.com/in/aldovani/",
+    text: "Conecte-se comigo no <span>Linkedin</span>",
   },
   {
     icon: "github",
@@ -27,7 +27,7 @@ export const Links = [
   },
   {
     icon: "email",
-    text: "Entre em contato por <span>Email</span>",
+    text: "Entre em <span>contato</span>",
     isButton: true,
   },
 ];

@@ -3,16 +3,10 @@ import { Form } from "../Form";
 import styles from "./styles.module.css";
 import CloseIcon from "../../assets/img/close.svg";
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 export function Modal() {
   const { close } = useModal();
-  const ModalRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ModalRef);
-  useEffect(() => {
-    console.log(isInView);
-  }, [isInView]);
 
   return (
     <motion.div
@@ -21,7 +15,6 @@ export function Modal() {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
-      ref={ModalRef}
     >
       <motion.div
         animate={{ opacity: 1, translateX: 0 }}
