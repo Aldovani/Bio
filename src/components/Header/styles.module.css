@@ -7,8 +7,9 @@
 
 .header img {
   width: 200px;
-  height: 100%;
+  height: 200px;
   border-radius: 12px;
+  align-self: center;
 }
 
 .header span {
@@ -23,7 +24,7 @@
   font-style: bold;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 48px;
+  line-height: 150%;
   text-transform: uppercase;
 }
 
@@ -37,18 +38,20 @@
   margin-top: 0.5rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .header {
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-items: center
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .header h1 {
-    text-align: center;
-    font-size: 28px;
+    /* text-align: center; */
+    font-size: 24px;
   }
-  .header p {
+  .header p,.header span {
+    font-size: .875rem;
+   
     text-align: justify;
   }
 }

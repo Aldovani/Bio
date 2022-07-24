@@ -10,12 +10,12 @@ export function Header() {
       />
       <div>
         <span>Olá, eu sou</span>
-        <h1> Aldovani Henrique da costa</h1>
+        <h1> Aldovani Henrique </h1>
         <p>
           e sou um desenvolvedor web de 18 anos. Meus interesses incluem anime,
           jogos, mangá, e uma variedade de outras coisas relacionadas à
           tecnologia. Eu realmente gosto de aprender coisas novas -
-          especialmente quando elas são tão divertidas quanto codificar!e tenho
+          especialmente quando elas são tão divertidas quanto codificar!<br /> E tenho
           estudado análise e desenvolvimento de sistemas na FATEC em
           Taquaritinga.
         </p>
